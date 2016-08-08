@@ -1,8 +1,8 @@
 import Bee from './Bee'
 
 class ForagerBee extends Bee{
-	constructor(age, color, food, job, canFly){
-		super(age || 10, null, null, job || 'find pollen')
+	constructor(age, color, food, job){
+		super(age || 10, color, null, job || 'find pollen')
 		this.canFly = true;
 		this.treasureChest = [];
 	}
